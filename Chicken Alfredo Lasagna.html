@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://img.buzzfeed.com/video-api-prod/assets/5ba783b0e18248c495d1b5e23778c47f/BFV15870_ChickenAlfredoLasagna-ThumbA1080.jpg">
+                <img src="Images/30217464-5FC2-4CA5-A3D4-661EE9FE06DE/FBFE69CB-10AD-4A98-B564-F0699BE92E66.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Chicken Alfredo Lasagna</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Chicken, Pasta</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Servings: </b><span itemprop="">6 servings</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://tasty.co/recipe/chicken-alfredo-lasagna">
+                        <span itemprop="author">Tasty.co</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>4</strong> boneless, skinless chicken breasts</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> teaspoons salt</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> teaspoons pepper</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> teaspoons garlic powder</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> tablespoons canola oil</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> cloves garlic, minced</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> medium white onion, finely chopped</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups heavy cream</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> cup shredded parmesan cheese</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup fresh parsley, chopped</p><p class="line" itemprop="recipeIngredient"><strong>10</strong> lasagna noodles, cooked</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups shredded mozzarella cheese</p><p class="line" itemprop="recipeIngredient"><strong>6</strong> strips bacon, cooked and crumbled</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Preheat oven to 350°F (180°C).</p><p class="line">Slice each chicken breasts in half lengthwise and sprinkle 1 teaspoon of salt, pepper, and garlic powder evenly on both sides of each chicken breast.</p><p class="line">Heat oil in a large pan over high heat, then sear the chicken for about 1 minute per side. They will continue to cook through in the oven later on.</p><p class="line">In the residual oil (drain some if necessary), toss in the garlic and onions, stirring constantly until the mixture has started to brown.</p><p class="line">Pour in the cream, stirring until it starts to boil, then add the parmesan and parsley.</p><p class="line">Cook for 1 additional minute, then remove from heat.</p><p class="line">In a 9&quot; x 13&quot; (23cm x 33cm) rectangular baking pan, spread about ¼ of the cream mixture on the bottom.</p><p class="line">Lay enough lasagna noodles to cover the sauce, then spread about ½ of the remaining cream mixture on top.</p><p class="line">Place enough chicken breasts to cover the sauce, then sprinkle with half of the mozzarella, followed by half of the bacon and half of the parsley.</p><p class="line">Repeat the layers once more, starting with noodles, sauce, chicken, bacon, parsley, and mozzarella.</p><p class="line">Bake for about 25 minutes, until the cheese is golden brown.</p><p class="line">Cool for about 15 minutes, slice, and serve!</p><p class="line">Enjoy!</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Fat: 73 grams<br/>Calories: 959 calories<br/>Fiber: 1 gram<br/>Carbohydrate: 17 grams<br/>Sugar: 4 grams<br/>Protein: 64 grams</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

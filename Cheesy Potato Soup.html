@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/10/3/0/FNM_110117-Cheesy-Potato-Soup_s4x3.jpg.rend.hgtvcom.406.305.suffix/1507047951435.jpeg">
+                <img src="Images/F79A6DCC-79BB-49F5-B1D2-9CED219D757F/4269AFB6-B903-4870-B9EA-F526D3FEB4FC.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Cheesy Potato Soup</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Soup &amp; Chili &amp; Stews</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">40 min</span>
+            <b>Cook Time: </b><span itemprop="">40 min</span>
+            <b>Difficulty: </b><span itemprop="">Easy</span>
+            <b>Servings: </b><span itemprop="">Yield: 4 servings</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.foodnetwork.com/recipes/food-network-kitchen/cheesy-potato-soup-3894914">
+                        <span itemprop="author">Foodnetwork.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> pound frozen Tater Tots</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> cups shredded sharp cheddar cheese (about 12 ounces)</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons unsalted butter</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> onion, diced (about 1 1/2 cups)</p><p class="line" itemprop="recipeIngredient">Kosher salt and freshly ground pepper</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cloves garlic, minced</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> Yukon Gold potatoes, peeled and diced (about 1 1/2 pounds)</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> cups low-sodium chicken broth</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> slices thick-cut bacon, diced</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup sour cream</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons chopped fresh chives</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Preheat the oven to 425 degrees F. Spread the Tater Tots on a baking sheet and bake, tossing halfway through, until crisp, about 20 minutes. Sprinkle with 1 cup cheese and continue baking until melted, about 5 minutes.</p><p class="line">Meanwhile, heat the butter in a large pot or Dutch oven over medium-high heat. Add the onion, season with 1/4 teaspoon salt and a few grinds of pepper and cook, stirring occasionally, until softened, about 5 minutes. Add the garlic and cook until just softened, about 1 minute. Add the potatoes, chicken broth, 3/4 cup water and 1/2 teaspoon salt and bring to a boil. Reduce the heat to a simmer, cover and cook until the potatoes are tender, 10 to 12 minutes.</p><p class="line">Meanwhile, cook the bacon in a small skillet over medium-high heat until crisp, 5 minutes. Drain on paper towels.</p><p class="line">Puree the soup with an immersion blender, thinning with up to 1/4 cup water. (Alternatively, puree the soup in batches in a blender, then return to the pot.) Stir in 1/4 cup sour cream and the remaining 2 cups cheese until melted. Ladle the soup into bowls. Top with the Tater Tots, bacon, chives and remaining 1/4 cup sour cream. Season with pepper.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Calories: 840<br/>Total Fat: 51 grams<br/>Saturated Fat: 24 grams<br/>Cholesterol: 106 milligrams<br/>Sodium: 1575 milligrams<br/>Carbohydrates: 72 grams<br/>Dietary Fiber: 6 grams<br/>Protein: 34 grams<br/>Sugar: 6 grams</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

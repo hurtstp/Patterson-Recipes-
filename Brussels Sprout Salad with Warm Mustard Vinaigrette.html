@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_150/25547_sfs-brussel-sprout-salad-warm-vinaigrette-23">
+                <img src="Images/E4AB41E5-EFF1-4ECB-B353-1C49711B2C4D/EBF0DF8A-B657-41AA-A160-1D3CFA5F60EF.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Brussels Sprout Salad with Warm Mustard Vinaigrette</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Cook Time: </b><span itemprop="">50 minutes</span>
+            <b>Servings: </b><span itemprop="">Serves 6</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.americastestkitchen.com/recipes/8582-brussels-sprout-salad-with-warm-mustard-vinaigrette?incode=MASAD00L0&amp;ref=new_search_experience_1">
+                        <span itemprop="author">Americastestkitchen.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>5</strong> tablespoons white wine vinegar</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon whole-grain mustard</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon sugar</p><p class="line" itemprop="recipeIngredient">Salt and pepper</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> shallot, halved through root end and sliced thin crosswise</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup dried apricots, chopped</p><p class="line" itemprop="recipeIngredient"><strong>5</strong> tablespoons vegetable oil</p><p class="line" itemprop="recipeIngredient"><strong>⅓</strong> cup shelled pistachios, chopped</p><p class="line" itemprop="recipeIngredient"><strong>1 ½</strong> pounds Brussels sprouts, trimmed, halved, and sliced thin</p><p class="line" itemprop="recipeIngredient"><strong>1 ½</strong> ounces (1 1/2 cups) watercress, chopped</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> ounces ricotta salata, shaved into thin strips using vegetable peeler</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Whisk vinegar, mustard, sugar, and 1/4 teaspoon salt together in bowl. Add shallot and apricots, cover tightly with plastic wrap, and microwave until steaming, 30 to 60 seconds. Stir briefly to submerge shallot. Let cool to room temperature, about 15 minutes.</p><p class="line">Heat oil in 12-inch skillet over medium heat until shimmering. Add pistachios and cook, stirring frequently, until pistachios are golden brown, 1 to 2 minutes. Off heat, whisk in shallot mixture. Add Brussels sprouts and toss with tongs until dressing is evenly distributed and sprouts darken slightly, 1 to 2 minutes. Transfer to serving bowl. Add watercress and ricotta salata and toss to combine. Season with salt and pepper to taste, and serve immediately.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Calories: 1396</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>
