@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://assets.epicurious.com/photos/560df87d7b55306961bfe71d/1:1/w_600%2Ch_600/107771.jpg">
+                <img src="Images/F9CC7EA0-32EB-4C52-9BC7-863D44B89567/21FD7AC0-8176-469B-975E-51805A76AD93.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Fruit and Nut Chocolate Chunks</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Desserts</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">15 min</span>
+            <b>Cook Time: </b><span itemprop="">35 min</span>
+            <b>Servings: </b><span itemprop="">36 candies</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.epicurious.com/recipes/food/views/Fruit-and-Nut-Chocolate-Chunks-107771">
+                        <span itemprop="author">Epicurious.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1 1/4</strong> lb fine-quality bittersweet chocolate (not unsweetened), broken into small pieces</p><p class="line" itemprop="recipeIngredient">Vegetable oil for greasing pan</p><p class="line" itemprop="recipeIngredient"><strong>2/3</strong> cup dried cranberries</p><p class="line" itemprop="recipeIngredient"><strong>2/3</strong> cup raisins</p><p class="line" itemprop="recipeIngredient"><strong>2/3</strong> cup salted roasted shelled pistachios (3 oz)</p><p class="line" itemprop="recipeIngredient"><strong>2/3</strong> cup salted roasted cashews (3 oz)</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Melt chocolate in top of a double boiler or metal bowl set over a saucepan of barely simmering water, stirring occasionally until smooth.</p><p class="line">While chocolate is melting, line bottom and sides of an 8-inch square baking pan with foil, leaving a 2-inch overhang, then lightly oil foil.</p><p class="line">Remove chocolate from heat and stir in fruit and nuts, then spread evenly in baking pan. Freeze until firm, about 20 minutes. Lift candy in foil from pan using overhang and transfer to a cutting board. Peel off foil and cut candy with a long heavy knife into 36 pieces.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>If you have more time, chill the candy in the refrigerator (instead of in the freezer) until firm, about 1 hour. • Candy keeps, wrapped well in foil and chilled, 2 weeks.</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Calories 120<br/>Carbohydrates 15 g(5%)<br/>Fat 7 g(11%)<br/>Protein 2 g(3%)<br/>Saturated Fat 3 g(16%)<br/>Sodium 17 mg(1%)<br/>Polyunsaturated Fat 1 g<br/>Fiber 1 g(6%)<br/>Monounsaturated Fat 3 g<br/>per serving (36 servings) Powered by</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

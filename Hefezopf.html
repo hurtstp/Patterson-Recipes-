@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://germangirlinamerica.com/wp-content/uploads/2018/03/bread-3.jpg">
+                <img src="Images/3BB06932-A8AE-4F99-A494-B15F728D7584/C97FE0DF-1FFE-47EF-A3C1-503F48B10593.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Hefezopf</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Bread, Rolls &amp; Muffins</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Servings: </b><span itemprop="">Servings: 1 loaf</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://germangirlinamerica.com/hefezopf-recipe/">
+                        <span itemprop="author">Germangirlinamerica.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> Cup Milk</p><p class="line" itemprop="recipeIngredient"><strong>500</strong> gr / approx 4 cups All Purpose Flour</p><p class="line" itemprop="recipeIngredient"><strong>50</strong> gr / 1/4 cup Sugar</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tsp Rapid Rise Yeast</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tsp Salt</p><p class="line" itemprop="recipeIngredient">Lemon Zest- approx 1 lemon worth</p><p class="line" itemprop="recipeIngredient"><strong>6</strong> TBL Butter at room temp.</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> Egg</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup Raisins/Cranberries</p><p class="line" itemprop="recipeIngredient">For Finishing</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> Egg Yolk</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tsp Whole Milk</p><p class="line" itemprop="recipeIngredient">Few Tbl. Hagel Zucker / Pearl Sugar</p><p class="line" itemprop="recipeIngredient">OR</p><p class="line" itemprop="recipeIngredient">Few Tbl. Sliced Almonds</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Warm the milk up a little. (I stuck my finger in it, it felt warm, and it worked. You don&apos;t want it too hot, it will kill the yeast)</p><p class="line">In your mixing bowl, combine the flour, sugar, rapid rise yeast, salt, and the lemon peel.</p><p class="line">In another bowl (I just used a measuring cup) combine the milk and eggs.. give them a quick mix.</p><p class="line">Add the milk/egg mixture to the flour/sugar mix... then slice in the room temperature butter.</p><p class="line">Mix until it all comes together in a sticky dough.</p><p class="line">Dump the dough blob out onto a floured surface.</p><p class="line">Now comes the work. Don&apos;t cheat!</p><p class="line">Knead the dough for 10 15 minutes, until it is smooth and elastic. (Note- even though I have a dough hook on my mixer, I did this by hand. I presume it can be done on the dough hook as well, I just chose to use it as a work out). Add a sprinkle of flour if the dough is too sticky.</p><p class="line">Put the kneaded dough into a clean bowl, and cover with a dishcloth or plastic. Let rise 1 hour in a draft-free warm spot. It should double in size.</p><p class="line">When the dough has risen, dump it out of the bowl and onto the counter.</p><p class="line">Shape it a little flat, and add the raisins/cranberries.</p><p class="line">Fold the dough over the fruits, then knead them in to distribute.</p><p class="line">Cut the dough into 3 equal pieces (I actually weighed them out... )</p><p class="line">Roll the pieces into 16 inch strands.</p><p class="line">Lay them next to each other, squish them together at one end, then braid the length of the strand. Press the other end so they stay together, and tuck up under the end.</p><p class="line">Cover a baking sheet with parchment paper</p><p class="line">Place the braided loaf on the parchment paper, cover with a cloth, and let it rise for 20 minutes in a warm, draft-free space.</p><p class="line">Preheat the oven to 350 degrees Fahrenheit.</p><p class="line">When the dough has risen, check to see if any of the raisins/cranberries are sticking out. Poke them in a bit, or remove them if they are.</p><p class="line">Combine an Egg Yolk and 1 Tbl. Milk in a small bowl... really mix it until its not separate looking. Use a pastry brush, and brush the whole braid.</p><p class="line">Sprinkle with Hagel Zucker/Pearl Sugar or Sliced Almonds.</p><p class="line">Bake for 25 minutes, then check. If it&apos;s getting too brown at this point, lay a piece of foil over the loaf.</p><p class="line">Bake an additional 5 minutes.</p><p class="line">Cool on a rack</p><p class="line">Best served the same day, but you can wrap it tightly to store for another day.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>I baked the bread using 2% milk, and regular American butter. (I used what I had in the refrigerator). The original recipe calls for WHOLE Milk and European HIGH FAT butter. I imagine the flavor would be richer, and the taste moister with the addition of the extra fat. And it would be better the next day</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>
