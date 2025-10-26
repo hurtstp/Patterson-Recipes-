@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Mom&#39;s Pasta Sauce</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <p itemprop="recipeCategory" class="categories">Seasonings, Sauces and Spices</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+
+            <!-- Source -->
+                <b>Source: </b>
+                
+                    <span itemprop="author">My Brain</span>
+            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient">Olive oil</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> Medium Onions</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> Garlic Cloves</p><p class="line" itemprop="recipeIngredient"><strong>3-4</strong> Medium sized carrots</p><p class="line" itemprop="recipeIngredient"><strong>3-4</strong> Medium sized Zucchini</p><p class="line" itemprop="recipeIngredient"><strong>16</strong> ounces of mushrooms (sliced if you can get them)</p><p class="line" itemprop="recipeIngredient"><strong>1-2</strong> tablespoons dried oregano</p><p class="line" itemprop="recipeIngredient"><strong>1-2</strong> tablespoons dried parsley</p><p class="line" itemprop="recipeIngredient"><strong>1-2</strong> tablespoons dried basil leaves</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> bay leaves</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> 6 ounce can of tomato paste</p><p class="line" itemprop="recipeIngredient"><strong>3-4</strong> 28 ounce cans of diced tomatoes (no salt added if you can get it)</p><p class="line" itemprop="recipeIngredient">salt and pepper to taste</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon sugar</p><p></p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Add olive oil to pot. Peel and rough chop the onions. Add to pot. Start cooking on medium heat. Peel and add whole garlic cloves. Peel carrots and rough chop. Add to pot. Slice zucchini in half long ways and chop into half moons. Add to pot. Add mushrooms if you got the sliced kind. Otherwise rough chop them and then add to pot. Stir as you add ingredients. </p><p class="line">Stir in herbs. Add tomato paste and cook for about 2 minutes.<br/>Add canned diced tomatoes. Mix everything well together. Bring to a boil. Once boiling, reduce heat to simmer. Simmer for at least 3 hours, stirring occasionally. If you can cook it longer, great. 4 to 5 hours is best. </p><p class="line">After its simmered for however long, take of heat. Remove bay leaves. With Imersion blender, blend until all the veggies are chopped. The sauce won&apos;t be completely smooth. But you can blend until its a texture you like. If you want it really smooth, you will need to get a regular blender for that.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

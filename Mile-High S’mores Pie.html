@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/06/09/0/FNM_070122-Mile-High-Smores-Pie_s4x3.jpg.rend.hgtvcom.406.305.suffix/1654796734092.jpeg">
+                <img src="Images/A4022A7F-13B8-4C19-8866-C2F64F30FD12/0A01F232-70E7-4482-B655-9DCB064A5E86.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Mile-High S&#8217;mores Pie</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">50 min</span>
+            <b>Cook Time: </b><span itemprop="">50 min</span>
+            <b>Servings: </b><span itemprop="">Yield: 8 to 10 servings</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.foodnetwork.com/recipes/food-network-kitchen/mile-high-smores-pie-12741675">
+                        <span itemprop="author">Foodnetwork.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>For the Crust:</strong></p><p class="line" itemprop="recipeIngredient"><strong>1 1/2</strong> cups graham cracker crumbs (from 10 to 12 crackers)</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tablespoons sugar</p><p class="line" itemprop="recipeIngredient"><strong>6</strong> tablespoons unsalted butter, melted</p><p class="line" itemprop="recipeIngredient"><strong>For the Filling:</strong></p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups whole milk</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> large egg yolks</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup sugar</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tablespoons cornstarch</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> teaspoon salt</p><p class="line" itemprop="recipeIngredient"><strong>8</strong> ounces milk chocolate, finely chopped</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons unsalted butter</p><p class="line" itemprop="recipeIngredient"><strong>For the Meringue:</strong></p><p class="line" itemprop="recipeIngredient"><strong>5</strong> large egg whites</p><p class="line" itemprop="recipeIngredient"><strong>3/4</strong> cup sugar</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> teaspoon cream of tartar</p><p class="line" itemprop="recipeIngredient">Pinch of salt</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> teaspoon pure vanilla extract</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Make the crust: Preheat the oven to 350˚ F. Mix the graham cracker crumbs, sugar and melted butter in a medium bowl until combined. Press evenly into the bottom and up the sides of a 9-inch pie plate. Bake until lightly toasted, about 10 minutes; set aside to cool.</p><p class="line">Make the filling: Heat the milk in a medium saucepan over medium heat until almost simmering. Whisk the egg yolks, sugar, cornstarch and salt in a medium bowl to make a thick paste. Whisk about one-third of the warm milk into the egg mixture until smooth. Add this mixture to the remaining milk in the saucepan and cook, whisking constantly, until it starts to bubble and thicken, about 2 minutes. Continue cooking, whisking, until thick like pudding, 1 to 2 more minutes.</p><p class="line">Remove the pan from the heat and whisk in the chocolate until melted and combined. Whisk in the butter until combined. Pour the filling into the graham cracker crust and refrigerate until completely cool, about 2 hours.</p><p class="line">Make the meringue: Whisk the egg whites, sugar, cream of tartar and salt in a large heatproof bowl (or the bowl of a stand mixer) until combined. Set the bowl over a medium saucepan with 1 inch of simmering water (don’t let the bottom of the bowl touch the water). Cook, whisking constantly, until the mixture is just hot to the touch and the sugar is completely dissolved, 3 to 4 minutes.</p><p class="line">Remove the bowl from the saucepan. Add the vanilla. Beat with a mixer on medium-high speed until stiff glossy peaks form, 4 to 5 minutes. Transfer the meringue to a pastry bag fitted with a 3/4-inch-wide tip. Pipe large marshmallow-size mounds on the surface of the pie, leaving a small border of the filling exposed. Pipe another layer of mounds on top in a slightly smaller circle, then pipe a third layer on top, using the rest of the meringue. Use a kitchen torch to toast the meringue (or toast under the broiler). Refrigerate the pie until cooled before slicing, at least 1 hour.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

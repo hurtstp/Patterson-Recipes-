@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.seriouseats.com/2020/02/20200205-banchan-oi-muchim-marinated-cucumber-vicky-wasik-12.jpg">
+                <img src="Images/D101B9BA-F277-47F1-A89E-AC996E55C637/192CF03E-69BB-4004-A112-730B43B6516E.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Korean Marinated CucumberBanchan(Oi Muchim)</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Appetizers, Vegetable Side Dishes</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">5 minutes</span>
+            <b>Cook Time: </b><span itemprop="">35 minutes</span>
+            <b>Servings: </b><span itemprop="">Serves 2 to 3 as a large side dish, or 4 to 6 as a banchan</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.seriouseats.com/recipes/2020/02/korean-marinated-cucumber-banchan-oi-muchim.html?fbclid=IwAR3yEyge-rV4GjyjFWIrPXtwhmdTIHD1pCgEc9SMGSl92iq5Zl2RVg7QtiY">
+                        <span itemprop="author">Seriouseats.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>4</strong> Persian cucumbers (about 10 1/2 ounces; 300g), sliced crosswise 1/2 inch thick</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon (8g) coarse ground gochugaru (Korean chili flakes)</p><p class="line" itemprop="recipeIngredient"><strong>1 1/2</strong> teaspoons (6g) kosher salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon (5g) sugar</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons (30ml) unseasoned rice wine vinegar</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon (5ml) fish sauce</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> medium garlic clove (5g), very finely minced or grated</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tablespoons (45ml) toasted sesame oil</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon (10g) toasted sesame seeds</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">1. In a medium bowl, combine cucumbers, gochugaru, salt, and sugar. Using clean hands, massage cucumbers, squeezing and tossing them with seasoning, until cucumber is well-coated on all sides and begins to release liquid and color of gochugaru brightens to vibrant orange-red, about 1 minute.</p><p class="line">2. Transfer cucumbers to a colander, then set colander inside bowl used to season cucumbers. Cut a round of parchment paper large enough to cover surface of cucumbers, and place over cucumbers. Then place a weight on top of parchment to press down on cucumbers (canned goods, a cast iron skillet, a mixing bowl filled with water, or a Chef&apos;s Press all make for good weights). Set aside to drain for at least 30 minutes and up to 1 hour.</p><p class="line">3. Meanwhile, in a separate medium bowl, whisk together rice wine vinegar, fish sauce, and garlic. Whisking constantly, slowly drizzle in sesame oil until emulsified.</p><p class="line">4. Once cucumbers have drained, remove weight and discard parchment paper. Using clean hands, squeeze cucumbers to get rid of excess moisture, then transfer to bowl with dressing; discard accumulated cucumber liquid. Toss cucumbers with dressing until well-coated all over, about 30 seconds. Add sesame seeds and toss to combine. Divide between small individual serving bowls and serve, or transfer to airtight container and refrigerate for up to 2 days.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>
