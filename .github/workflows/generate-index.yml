@@ -1,0 +1,34 @@
+name: Auto-generate index.html
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.html'
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate index.html
+        run: |
+          echo "<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Patterson Family Recipes</title><style>body{font-family:Arial,sans-serif;background:#fffaf5;padding:2em;color:#333}h1{color:#c45b29}a{color:#c45b29;text-decoration:none;display:block;margin:.5em 0}a:hover{text-decoration:underline}</style></head><body><h1>Patterson Family Recipes</h1><p>Select a recipe below:</p><ul>" > index.html
+          for f in *.html; do
+            if [ "$f" != "index.html" ]; then
+              name=$(basename "$f" .html)
+              echo "<li><a href='$f'>$name</a></li>" >> index.html
+            fi
+          done
+          echo "</ul></body></html>" >> index.html
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add index.html
+          git commit -m "Auto-update index.html" || echo "No changes to commit"
+          git push
