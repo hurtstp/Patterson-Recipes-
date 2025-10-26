@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.eatingwell.com/thmb/gPRGCQVZQ_7UPvu45o4xQFMvW1A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6351618-1c39b2471d154839b1f801ac6842cfdc.jpg">
+                <img src="Images/F7732AA8-F5EE-4F65-9369-B1EFEC4610F1/22F0F697-39D9-4666-85C1-0BBD206BE2F3.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Salmon Couscous Salad</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">10 mins</span>
+            <b>Cook Time: </b><span itemprop="">10 mins</span>
+            <b>Servings: </b><span itemprop="">1</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.eatingwell.com/recipe/270571/salmon-couscous-salad/">
+                        <span itemprop="author">Eatingwell.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup sliced cremini mushrooms</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup diced eggplant</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> cups baby spinach</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons white-wine vinaigrette, divided (see Tip)</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup cooked Israeli couscous, preferably whole-wheat</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> ounces cooked salmon</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup sliced dried apricots</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons crumbled goat cheese (1/2 ounce)</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Coat a small skillet with cooking spray and heat over medium-high heat. Add mushrooms and eggplant; cook, stirring, until lightly browned and juices have been released, 3 to 5 minutes. Remove from heat and set aside.</p><p class="line">Toss spinach with 1 Tbsp. plus 1 tsp. vinaigrette and place on a 9-inch plate.</p><p class="line">Toss couscous with the remaining 2 tsp. vinaigrette and place on top of the spinach. Place salmon on top. Top with the cooked vegetables, dried apricots, and goat cheese.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Tip: To make a quick white-wine vinaigrette, whisk 2 Tbsp. white-wine vinegar with 1/8 tsp. each salt and pepper. Slowly whisk in 1/4 cup extra-virgin olive oil until blended. Extra dressing will keep, covered, in the refrigerator for up to 5 days. Bring to room temperature before using.</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

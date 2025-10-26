@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/1/4/1/GH0305H_shrimp-and-sausage-cioppino_s4x3.jpg.rend.hgtvcom.406.305.suffix/1371595278241.jpeg">
+                <img src="Images/2A277DC1-E02B-4097-847C-80885EFAF2CD/75A5D46A-2A06-4DBE-BD87-9FD7FCA6BBAE.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Seafood and Sausage Cioppino</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <p itemprop="recipeCategory" class="categories">Pork, Seafood, Soup &amp; Chili &amp; Stews</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">10 min</span>
+            <b>Cook Time: </b><span itemprop="">25 min</span>
+            <b>Servings: </b><span itemprop="">Yield: 4 servings</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.foodnetwork.com/recipes/giada-de-laurentiis/shrimp-and-sausage-cioppino-recipe-1922874">
+                        <span itemprop="author">Foodnetwork.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1/4</strong> cup extra-virgin olive oil</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cloves garlic, peeled and smashed</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> medium onion, chopped</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> teaspoon kosher salt, plus 1/2 teaspoon</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> teaspoon freshly ground black pepper, plus 1/4 teaspoon</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> pound Italian sausage, casings removed</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup white wine, such as Pinot Grigio</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> cup tomato paste</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> cups low-sodium chicken broth</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> bay leaf</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> pound white fish such as cod or haddock</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> pound large shrimp, peeled and deveined</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> (15-ounce) can cannellini beans, rinsed and drained</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon chopped fresh thyme leaves</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">In a Dutch oven or large saucepan, heat the oil over medium-high heat. Add the sausage, garlic, onion, 1/2 teaspoon salt, and 1/4 teaspoon pepper. Cook, stirring occasionally, until the vegetables are slightly softened and sausage is browned, about 5 minutes. Add the wine and scrape up the brown bits that cling to the bottom of the pan with a wooden spoon. Stir in the tomato paste, chicken broth, and bay leaf. Bring to a simmer, cover, and cook for 10 minutes.</p><p class="line">Uncover the pan and add the shrimp, fish, beans, and thyme. Simmer, uncovered, until the shrimp are pink and cooked through, about 4 minutes. Remove the bay leaf and discard. Season with the remaining 1/2 teaspoon salt and 1/4 teaspoon pepper. Ladle the cioppino into soup bowls and serve with crusty bread.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

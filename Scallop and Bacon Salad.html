@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/8/22/FNM100123_scallop-and-bacon-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1692738667448.jpeg">
+                <img src="Images/948AD828-1151-4955-92DA-B7FE215D181B/6C381671-7D88-42F8-839E-7CF4B3218D77.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Scallop and Bacon Salad</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Salad, Seafood</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">40 min</span>
+            <b>Cook Time: </b><span itemprop="">40 min</span>
+            <b>Difficulty: </b><span itemprop="">Easy</span>
+            <b>Servings: </b><span itemprop="">Yield: 4 servings</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.foodnetwork.com/recipes/food-network-kitchen/scallop-and-bacon-salad-17414377">
+                        <span itemprop="author">Foodnetwork.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> pound fingerling potatoes</p><p class="line" itemprop="recipeIngredient">Kosher salt</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> large eggs</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> slices thick-cut bacon, diced</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> cup mayonnaise</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tablespoons fresh lemon juice</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon Dijon mustard</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> small red onion, finely chopped</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> clove garlic, minced</p><p class="line" itemprop="recipeIngredient">Freshly ground pepper</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> pound large scallops (about 12), tough muscle removed</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> 5-ounce clamshell spring greens with spinach</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Put the potatoes in a medium saucepan and cover with water; season with salt. Bring to a boil, then reduce the heat and simmer 15 minutes. Add the eggs to the pot and cook until the potatoes are tender and the eggs are soft-boiled, about 5 more minutes. Transfer the eggs to a bowl of ice water using a slotted spoon. Drain the potatoes and let cool; cut in half.</p><p class="line">Cook the bacon in a large nonstick skillet over medium heat until browned and crisp, 4 to 5 minutes. Remove to a paper towel–lined plate with a slotted spoon. Pour off all but 2 tablespoons fat in the pan.</p><p class="line">Whisk together the mayonnaise, lemon juice and mustard in a bowl. Add the red onion and garlic; season with salt and pepper.</p><p class="line">Season the scallops with salt and pepper. Heat the bacon fat in the skillet over medium-high heat. Add the scallops and cook, undisturbed, until browned, 3 minutes. Flip and cook until the other side is browned, 1 to 2 more minutes.</p><p class="line">Divide the greens among plates and drizzle with some of the dressing. Top with the scallops, potatoes and soft-boiled eggs, slicing them open. Season the eggs with salt and pepper. Drizzle with more dressing and top with the bacon.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Fat: 24 grams<br/>Calories: 440<br/>Saturated Fat: 6 grams<br/>Sodium: 909 milligrams<br/>Fiber: 4 grams<br/>Sugar: 2 grams<br/>Carbohydrate: 27 grams<br/>Cholesterol: 233 milligrams<br/>Protein: 26 grams</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

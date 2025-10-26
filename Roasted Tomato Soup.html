@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2007/2/22/0/tu0201_tomatoesoup.jpg.rend.hgtvcom.406.305.suffix/1384541149106.jpeg">
+                <img src="Images/A5AACECF-24E1-47B8-9340-10F89FCAC1F3/BD5C2737-4C10-4987-ADAF-1DA2B031D401.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Roasted Tomato Soup</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <p itemprop="recipeCategory" class="categories">Soup &amp; Chili &amp; Stews</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">20 min</span>
+            <b>Cook Time: </b><span itemprop="">50 min</span>
+            <b>Servings: </b><span itemprop="">Yield: 4 to 6 servings</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.foodnetwork.com/recipes/tyler-florence/roasted-tomato-soup-recipe-1917339">
+                        <span itemprop="author">Foodnetwork.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>2 1/2</strong> pounds fresh tomatoes (mix of fresh heirlooms, cherry, vine and plum tomatoes)</p><p class="line" itemprop="recipeIngredient"><strong>6</strong> cloves garlic, peeled</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> small yellow onions, sliced</p><p class="line" itemprop="recipeIngredient">Vine cherry tomatoes for garnish, optional</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup extra-virgin olive oil</p><p class="line" itemprop="recipeIngredient">Salt and freshly ground black pepper</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> quart chicken stock</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> bay leaves</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons butter</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup chopped fresh basil leaves, optional</p><p class="line" itemprop="recipeIngredient"><strong>3/4</strong> cup heavy cream, optional</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Preheat oven to 450 degrees F.</p><p class="line">Wash, core and cut the tomatoes into halves. Spread the tomatoes, garlic cloves and onions onto a baking tray. If using vine cherry tomatoes for garnish, add them as well, leaving them whole and on the vine. Drizzle with 1/2 cup of olive oil and season with salt and pepper. Roast for 20 to 30 minutes, or until caramelized.</p><p class="line">Remove roasted tomatoes, garlic and onion from the oven and transfer to a large stock pot (set aside the roasted vine tomatoes for later). Add 3/4 of the chicken stock, bay leaves, and butter. Bring to a boil, reduce heat and simmer for 15 to 20 minutes or until liquid has reduced by a third.</p><p class="line">Wash and dry basil leaves, if using, and add to the pot. Remove the bay leaves before using an immersion blender to puree the soup until smooth. Return soup to low heat, add cream and adjust consistency with remaining chicken stock, if necessary. Season to taste with salt and freshly ground black pepper. Garnish in bowl with 3 or 4 roasted vine cherry tomatoes and a splash of heavy cream.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

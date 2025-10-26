@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.kingarthurbaking.com/sites/default/files/2022-11/Classic-Pumpkin-Pie_1288.jpg">
+                <img src="Images/4CA03AF6-EB20-4A92-B1D0-A2C8329815DB/19A4A699-94C2-4BF8-8932-277DAF4817AA.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Pumpkin Pie</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Desserts</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">30 mins</span>
+            <b>Cook Time: </b><span itemprop="">45 to 50 mins</span>
+            <b>Servings: </b><span itemprop="">One 9&quot; pie</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.kingarthurbaking.com/recipes/pumpkin-pie-recipe">
+                        <span itemprop="author">Kingarthurbaking.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup (99g) granulated sugar</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup (106g) light brown sugar or dark brown sugar, packed</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon King Arthur Unbleached All-Purpose Flour</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> teaspoon salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon ginger*</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon cinnamon*</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> teaspoon nutmeg*</p><p class="line" itemprop="recipeIngredient"><strong>1/8</strong> teaspoon cloves*</p><p class="line" itemprop="recipeIngredient"><strong>1/8</strong> teaspoon freshly ground black pepper, optional</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> large eggs, beaten</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> scant cups (425g) or one 15-ounce can pumpkin purée</p><p class="line" itemprop="recipeIngredient"><strong>1 1/4</strong> cups (283g) light cream or evaporated milk</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">In a large mixing bowl, whisk together the sugars, flour, salt, and spices.</p><p class="line">In a large measuring cup, beat together the eggs, pumpkin, and cream or evaporated milk. Whisk into the dry ingredients. For best flavor, cover and refrigerate the filling overnight before baking. (This will allow the spices&apos; flavor to blend.)</p><p class="line">Lightly grease a 9&quot; pie pan that&apos;s at least 1 1/2&quot; deep. Roll the pie dough out to a 13&quot; circle, and transfer to the pan. Crimp the edges above the rim; this will give you a little extra headroom to hold the filling when it expands in the oven. Refrigerate the crust while the oven preheats to 400°F.</p><p class="line">When the oven is hot, place the pie pan on a baking sheet to catch any drips. Pour the filling into the unbaked pie shell.</p><p class="line">Bake for 45 to 50 minutes, until the filling is set 2&quot; in from the edge. The center should still be wobbly. Remove the pie from the oven and cool on a rack; the center will finish cooking through as the pie sits. Store leftover pumpkin pie, covered, in the refrigerator for up to five days.</p><p class="line">Tips from our Bakers</p><p class="line">Pumpkin pie filling is basically a custard; the eggs in the filling will continue cooking as the heat from the edge of the pie moves toward the center, which is why it&apos;s important to remove the pie from the oven before the center is completely set. Leaving it in the oven too long will cause the eggs to overcook, tightening the proteins and causing the pie to crack in the center.</p><p class="line">For a Masala Pumpkin Pie, make these changes to the spice mixture for the filling: decrease cinnamon to 1/2 teaspoon, increase ground cloves to 1/4 teaspoon and black pepper to 1/2 teaspoon. Add 1/2 teaspoon each ground coriander and turmeric, and 1/4 teaspoon each ground cardamom and cumin.</p><p class="line">This recipe makes enough filling to generously fill a 9&quot; pan that&apos;s at least 1 1/2&quot; deep. If your pan isn&apos;t quite that big, you can bake any leftover filling in custard cups; it will take 25 to 30 minutes to cook.</p><p class="line">To dress up this pie with our Light Spice Holiday Cookies, cut out and bake the cookies according to the recipe instructions. Cool the baked cookies and place them around the perimeter of the cooled pie.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>
