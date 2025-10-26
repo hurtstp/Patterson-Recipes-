@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.simplyrecipes.com/wp-content/uploads/2010/03/classic-rack-of-lamb-horiz-a-1200.jpg">
+                <img src="Images/78676F11-34D5-44A2-910B-DCDF6054AD4E/9993AD8E-F2EF-41E7-AFF3-F08C35E315C2.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Classic Rack of Lamb</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Lamb</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">10 minutes</span>
+            <b>Cook Time: </b><span itemprop="">25 minutes</span>
+            <b>Servings: </b><span itemprop="">Yield: 1 rack serves 2 to 3 people</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.simplyrecipes.com/recipes/classic_rack_of_lamb/">
+                        <span itemprop="author">Simplyrecipes.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> or more Frenched* lamb rib racks with 7 to 8 ribs each (1 1/4 to 2 pounds for each rack, figure each rack feeds 2-3 people)</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons chopped fresh rosemary</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon chopped fresh thyme</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cloves garlic, minced</p><p class="line" itemprop="recipeIngredient">Salt</p><p class="line" itemprop="recipeIngredient">Pepper</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons extra virgin olive oil</p><p class="line" itemprop="recipeIngredient"><strong>Special equipment:</strong></p><p class="line" itemprop="recipeIngredient">Meat thermometer</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">1 Marinate lamb in rub: Rub rib rack(s) all over with mixture of rosemary, thyme, and garlic. Sprinkle with freshly ground black pepper. Place in a thick plastic bag with olive oil.</p><p class="line">Spread oil around so that it coats the lamb rack(s) all over. Squeeze out as much air as you can from the bag and seal. Place in a container so that if the bag leaks, the container catches the leak.</p><p class="line">Marinate in the refrigerator overnight, or at room temperature for 1 1/2 to 2 hours as the lamb is coming to room temperature in the next step.</p><p class="line">2 Bring lamb to room temp: Remove lamb rack from refrigerator to 1 1/2 to 2 hours before you cook it so that it comes to room temp. (If the meat is not at room temperature it will be hard for it to cook evenly.)</p><p class="line">3 Preheat oven to 450°F, arrange the oven rack so that the lamb will be in the middle of the oven.</p><p class="line">4 Score the fat, sprinkle with salt and pepper, wrap bones in foil, place in pan fat side up: Score the fat, by making sharp shallow cuts through the fat, spaced about an inch apart.</p><p class="line">Sprinkle the rack all over with salt and pepper. Place the lamb rack bone side down (fat side up) on a roasting pan lined with foil. Wrap the exposed ribs in a little foil so that they don&apos;t burn.</p><p class="line">5 Roast first at high heat to brown, then reduce heat to finish: Place the roast in the oven roast at 450°F for 10 minutes (longer if roasting more than one rack), or until the surface of the roast is nicely browned.</p><p class="line">Then lower the heat to 300°F. Cook for 10-20 minutes longer (depending on the size of the lamb rack, if you are roasting more than one rack, and how rare or well done you want your lamb), until a meat thermometer inserted into the thickest part of the meat 125°F on a for rare or 135°F for medium rare. Remove from oven, cover with foil and let rest for 15 minutes.</p><p class="line">Cut lamb chops away from the rack by slicing between the bones. Serve 2-3 chops per person.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

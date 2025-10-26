@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.wellplated.com/wp-content/uploads/2016/03/Creamy-Chicken-Bacon-Pasta-with-Peas-and-Cheese-550x824.jpg">
+                <img src="Images/AAA4212A-08F6-4333-B586-FB6B0B5E15E4/55F8BDE0-9A37-4783-9342-69CF19AF3C22.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Creamy Chicken Bacon Pasta with Peas</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">10 mins</span>
+            <b>Cook Time: </b><span itemprop="">30 minutes</span>
+            <b>Servings: </b><span itemprop="">Servings: 4 servings</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.wellplated.com/chicken-bacon-pasta/">
+                        <span itemprop="author">Wellplated.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>8</strong> ounces favorite small form pasta</p><p class="line" itemprop="recipeIngredient"><strong>8</strong> strips thick cut bacon cut into bite-sized pieces</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> pounds boneless skinless chicken breasts, cut into bite-sized pieces</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon Italian seasoning</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> teaspoon kosher salt</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> teaspoon black pepper</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> cloves minced garlic</p><p class="line" itemprop="recipeIngredient"><strong>1 1/2</strong> cups half and half or light cream </p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup grated Mozzarella cheese</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup grated Parmesan cheese</p><p class="line" itemprop="recipeIngredient"><strong>1 1/2</strong> cups peas fresh or frozen and thawed</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons chopped fresh parsley plus additional for serving</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Cook the pasta in a large pot of salted boiling water until al dente, according to package instructions. Reserve 1 cup of the pasta cooking liquid, then drain and set aside.</p><p class="line">In a large pan with high sides or a Dutch oven, cook the bacon over medium low heat, stirring occasionally, until browned and crispy, about 8 minutes. Remove the bacon to a plate and lightly pat dry. Discard all but 1 tablespoon bacon grease from the pan and return to heat.</p><p class="line">Increase the heat to medium high, add the chicken pieces, then sprinkle with the Italian seasoning, salt, and pepper. Sauté the chicken until cooked through, about 6 minutes, then add the minced garlic and cook until fragrant, about 30 seconds. Remove the chicken to the plate with the bacon, then return the pan to the heat.</p><p class="line">Add the half and half to the pan and bring it to a gentle boil over medium high, stirring often. Watch the pan carefully. As soon as the half and half barely begins to boil, reduce the heat to low and add the Mozzarella and 1/2 cup Parmesan cheese. Cook and stir the sauce until it thickens and the cheese melts, about 1-2 minutes. Stir in the pasta, bacon, chicken, peas, and parsley. Cook 30 additional seconds to warm through. If the sauce seems too thick, add a bit of the reserved pasta water to loosen it. Enjoy warm, topped with additional Parmesan cheese and parsley.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Leftover Creamy Chicken Bacon Pasta can be stored in the refrigerator for 3-4 days. Reheat gently in the microwave, splashed with a bit of water, chicken stock, or additional half-and-half to keep it from drying out as your rewarm it.</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>SERVING: 1(of 4) CALORIES: 654kcal<br/>CARBOHYDRATES: 54g PROTEIN: 50g<br/>FAT: 25g SATURATED FAT: 12g<br/>CHOLESTEROL: 144mg SODIUM: 724mg<br/>FIBER: 9g SUGAR: 8g</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>
