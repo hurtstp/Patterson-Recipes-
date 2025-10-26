@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://assets.bonappetit.com/photos/57b0129453e63daf11a4e8e8/16:9/w_1880,c_limit/mare_the_pimms_cup_v.jpg">
+                <img src="Images/ECED9B5B-FEF2-40F0-984E-44CE9523B9CB/7246B559-D4DD-465B-A22D-46E779872008.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">The Pimm&#39;s Cup</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <p itemprop="recipeCategory" class="categories">Beverages</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Servings: </b><span itemprop="">1 servings</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.bonappetit.com/recipe/the-pimm-s-cup">
+                        <span itemprop="author">Bonappetit.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> 3-inch piece English cucumber, cut into 1/2-inch slices, plus 2 spears (for garnish)</p><p class="line" itemprop="recipeIngredient"><strong>3/4</strong> cup Pimm&apos;s No. 1*</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tablespoons fresh Meyer lemon juice or regular lemon juice</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> teaspoon sugar</p><p class="line" itemprop="recipeIngredient">Ice cubes</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> sprigs each fresh rosemary, thyme, and mint</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> lemon slices</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> fresh strawberries, halved</p><p class="line" itemprop="recipeIngredient">Ginger beer, chilled</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> rhubarb stalks (for garnish)</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Place 1/2-inch-thick cucumber slices in cocktail shaker. Using muddler or handle of wooden spoon, mash well. Add Pimm&apos;s, lemon juice, and sugar. Fill 2 pilsner glasses with ice; set aside. Add ice to Pimm&apos;s mixture, cover, and shake vigorously 20 times. Strain into glasses. Push 1 rosemary sprig, 1 thyme sprig, 1 mint sprig, 1 lemon slice, and 2 strawberry halves down into each glass. Fill glasses with ginger beer. Garnish with cucumber spears and rhubarb stalks.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

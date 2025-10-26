@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-300%2Fd21%2Fmed104257_1208_mtball%2Fmed104257_1208_mtball_vert.jpg%3Fitok%3DqN-QfyDY">
+                <img src="Images/EA5059C5-5925-4647-B0F3-717EE9562BAF/A425816F-46D3-4533-A2FA-D91099EE439C.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Swedish Meatballs</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <p itemprop="recipeCategory" class="categories">Beef, Pork</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">20 mins</span>
+            <b>Cook Time: </b><span itemprop="">40 mins</span>
+            <b>Servings: </b><span itemprop="">Servings: 8</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.marthastewart.com/341737/swedish-meatballs">
+                        <span itemprop="author">Marthastewart.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> pound ground beef chuck</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> pound ground pork</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> cups panko (Japanese breadcrumbs)</p><p class="line" itemprop="recipeIngredient"><strong>1 1/2</strong> cups whole milk</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> large eggs, lightly beaten</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> garlic cloves, minced</p><p class="line" itemprop="recipeIngredient">Coarse salt and ground pepper</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> teaspoon ground allspice</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tablespoons butter</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tablespoons all-purpose flour</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups canned reduced-sodium beef broth</p><p class="line" itemprop="recipeIngredient">Grape or red-current jelly, cooked egg noodles, chopped parsley, for serving (optional)</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Preheat oven to 475 degrees. In a large bowl, combine beef, pork, panko, 1/2 cup milk, eggs, garlic, 1 tablespoon salt, 1/2 teaspoon pepper, and allspice. Mix just until combined.</p><p class="line">Using a rounded 1-tablespoon measure for each, form mixture into meatballs (you should have about 48). Place meatballs onto two rimmed baking sheets; bake until golden brown and cooked through, 10 to 12 minutes, rotating sheets halfway through.</p><p class="line">Meanwhile, make sauce: In a medium saucepan, melt butter over medium-high. Add flour; cook, whisking, 1 minute (do not let darken). Gradually whisk in remaining cup milk and broth; bring to a boil. Reduce heat, and simmer until sauce has slightly thickened, 2 to 3 minutes. Transfer to a large bowl.</p><p class="line">Using a slotted spoon, add meatballs to bowl with sauce; gently toss to combine. Serve as an appetizer, on toothpicks, with jelly on the side; or as a main, over noodles, garnished with parsley, with jelly on the side.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Made from a combination of beef and pork, these meatballs are a Scandinavian favorite that goes from appetizer to main in a flash (just add noodles). It&apos;s a tradition to serve them with sweet-tart lingonberry jam; if you can&apos;t find it, grape or red-currant jelly is a good substitute.</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Fat: 23 g<br/>Calories: 461 g<br/>Fiber: 1 g<br/>Protein: 30 g</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>
